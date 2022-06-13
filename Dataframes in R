@@ -1,0 +1,13 @@
+#GOAL : We will read into R a file that holds population figures for Australian states and territories, and total population, at various times since 1917, then using this file to create a graph. 
+#The data in the file are stored in aust.csv
+#The following reads in the data from the file aust.txt on a disk in drive c:
+
+austpop <- read.table("C:/Rdatafiles/aust.txt", header=TRUE)
+
+#Please note that 
+#<- is a left diamond bracket (<) followed by a minus sign (-). It means “is assigned to”. 
+#Use of header=TRUE causes R to use= the first line to get header information for the columns. 
+
+
+names(austpop) 
+# above command will give the column names
