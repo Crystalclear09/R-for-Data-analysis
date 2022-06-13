@@ -1,0 +1,4 @@
+Download and Install R .
+Use https://cran.microsoft.com/ for download the R software to your system. 
+Copy down the latest SetupR.exe from the relevant base directory on the nearest CRAN site, click on its icon to start installation, and follow instructions. Packages that do not come with the base distribution must be downloaded and installed separately.
+I am using R-4.2.0- Win.exe and also downloaded RStudio for the coding 
